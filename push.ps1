@@ -16,7 +16,7 @@ Import-Module OSD -Force
 
 #Start OSDCloud ZTI the RIGHT way
 Write-Host  -ForegroundColor Cyan "Start OSDCloud with CCCA-BTP Parameters"
-Start-OSDCloud -OSLanguage fr-fr -OSBuild 20H2 -OSEdition Enterprise -ZTI
+Start-OSDCloud -OSLanguage fr-fr -osversion "windows 10" -OSBuild 21H1 -OSEdition Enterprise -ZTI
 
 #Restart from WinPE
 Write-Host  -ForegroundColor Cyan "Restarting in 20 seconds!"
